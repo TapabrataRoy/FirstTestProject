@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-05T18:56:44Z" name="Suite" finished-at="2019-09-05T18:57:10Z" duration-ms="25339">
+  <suite started-at="2019-09-06T18:02:00Z" name="Default suite" finished-at="2019-09-06T18:02:05Z" duration-ms="5574">
     <groups>
     </groups>
-    <test started-at="2019-09-05T18:56:44Z" name="Test" finished-at="2019-09-05T18:57:10Z" duration-ms="25339">
-      <class name="maventest.logInTest">
-        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:maventest.logInTest@5906ebcb]" started-at="2019-09-05T18:56:44Z" name="OpenApplication" finished-at="2019-09-05T18:57:08Z" duration-ms="23821" status="PASS">
+    <test started-at="2019-09-06T18:02:00Z" name="Default test" finished-at="2019-09-06T18:02:05Z" duration-ms="5574">
+      <class name="maventest.RestDemo1">
+        <test-method signature="getweather()[pri:0, instance:maventest.RestDemo1@21507a04]" started-at="2019-09-06T18:02:00Z" name="getweather" finished-at="2019-09-06T18:02:05Z" duration-ms="5513" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApplication -->
-        <test-method signature="getTitle()[pri:0, instance:maventest.logInTest@5906ebcb]" started-at="2019-09-05T18:57:08Z" name="getTitle" finished-at="2019-09-05T18:57:08Z" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:maventest.logInTest@5906ebcb]" started-at="2019-09-05T18:57:08Z" name="closeApplication" finished-at="2019-09-05T18:57:10Z" duration-ms="1405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApplication -->
-      </class> <!-- maventest.logInTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getweather -->
+      </class> <!-- maventest.RestDemo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
